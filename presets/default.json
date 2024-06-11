@@ -43,7 +43,8 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors",
+        "juggernautXL.safetensors": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/764940/juggernautX.lIDA.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Juggernaut_X_RunDiffusion_Hyper.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240611/us-east-1/s3/aws4_request&X-Amz-Date=20240611T104859Z&X-Amz-SignedHeaders=host&X-Amz-Signature=94871bd010f209239e67e39dea8d7d2b292d61f04dc1e40b84e6e68614200db6"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
