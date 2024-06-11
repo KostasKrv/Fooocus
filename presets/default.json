@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {        
-        "JuggernautXRundiffusion_Hyper.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-X-Hyper/blob/main/JuggernautXRundiffusion_Hyper.safetensors"
+        "JuggernautXRundiffusion_Hyper.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-X-Hyper/resolve/main/JuggernautXRundiffusion_Hyper.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
