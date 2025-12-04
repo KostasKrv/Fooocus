@@ -1,6 +1,7 @@
 import os
 import ssl
 import sys
+import time
 
 print('[System ARGV] ' + str(sys.argv))
 
@@ -130,13 +131,17 @@ def download_models(default_model, previous_default_models, checkpoint_downloads
 
     for file_name, url in checkpoint_downloads.items():
         model_dir = os.path.dirname(get_file_from_folder_list(file_name, config.paths_checkpoints))
+        time.sleep(5)  # delay for 5 seconds
         load_file_from_url(url=url, model_dir=model_dir, file_name=file_name)
     for file_name, url in embeddings_downloads.items():
+        time.sleep(5)  # delay for 5 seconds
         load_file_from_url(url=url, model_dir=config.path_embeddings, file_name=file_name)
     for file_name, url in lora_downloads.items():
         model_dir = os.path.dirname(get_file_from_folder_list(file_name, config.paths_loras))
+        time.sleep(5)  # delay for 5 seconds
         load_file_from_url(url=url, model_dir=model_dir, file_name=file_name)
     for file_name, url in vae_downloads.items():
+        time.sleep(5)  # delay for 5 seconds
         load_file_from_url(url=url, model_dir=config.path_vae, file_name=file_name)
 
     return default_model, checkpoint_downloads
