@@ -40,12 +40,13 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "analog_maddess.safetensors": "https://huggingface.co/bobrity/analogmadness-sdxl/blob/main/model.safetensors"
+        "analog_maddess.safetensors": "https://huggingface.co/bobrity/analogmadness-sdxl/resolve/main/model.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "SaggyTits.safetensors": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/590042/SagTi_r1.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22SagTi_r1.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20260130/us-east-1/s3/aws4_request&X-Amz-Date=20260130T205940Z&X-Amz-SignedHeaders=host&X-Amz-Signature=545e804b99274f58934d32316433a5e902bca3b8222265729211078dc30b4f28",
-        "PubicHair.safetensors": "https://huggingface.co/beddman963/civitcp/resolve/main/Pubic%20Hair%20Slider%20-%20Pony_alpha1.0_rank4_noxattn_last.safetensors?download=true"        
+        "PubicHair.safetensors": "https://huggingface.co/beddman963/civitcp/resolve/main/Pubic%20Hair%20Slider%20-%20Pony_alpha1.0_rank4_noxattn_last.safetensors?download=true",
+        "BrazilianTanLines.safetensors" : "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/2139647/braziliantapetanv15.VEss.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22braziliantapetanv15_PONY.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20260130/us-east-1/s3/aws4_request&X-Amz-Date=20260130T210929Z&X-Amz-SignedHeaders=host&X-Amz-Signature=6cc7c6d718c18720449c76084aae07a54c105682a13629ee64aa6e3fbb76aee3",
     },
     "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
 }
