@@ -40,7 +40,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "analog_maddess.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
+        "analog_maddess.safetensors": "https://huggingface.co/bobrity/analogmadness-sdxl/blob/main/model.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
